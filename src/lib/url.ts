@@ -6,3 +6,4 @@ export function isSafeHttpUrl(value: string): boolean {
     return false
   }
 }
+// test: trigger AI review
