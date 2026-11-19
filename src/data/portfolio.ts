@@ -11,15 +11,6 @@ export const profile: Profile = {
   name: 'Prabeer Sarkar',
   initials: 'PS',
   role: 'Full-Stack Developer | React.js | Node.js | AI-Powered Web Applications',
-  location: 'Hyderabad, India',
-  email: 'prabeersarkar098@gmail.com',
-  phone: '+91 6303161925',
-  phoneHref: 'tel:+916303161925',
-  linkedinUrl: 'https://www.linkedin.com/in/prabeer-sarkar-705b56240/',
-  githubUrl: configuredGithubUrl,
-  experienceLabel: 'About 2.6 years',
-  focusLabel: 'React.js, Node.js, and AI-powered interfaces',
-}
 
 export const navItems = [
   { id: 'home', label: 'Home' },
@@ -27,13 +18,7 @@ export const navItems = [
   { id: 'skills', label: 'Skills' },
   { id: 'experience', label: 'Experience' },
   { id: 'projects', label: 'Projects' },
-  { id: 'contact', label: 'Contact' },
-] as const
-
-export type SectionId = (typeof navItems)[number]['id']
-
-export const heroContent = {
-  eyebrow: 'Full-Stack Developer · Hyderabad, India',
+ 'Full-Stack Developer · Hyderabad, India',
   greeting: "Hi, I'm Prabeer Sarkar",
   headline:
     'Full-Stack Developer building responsive web applications and AI-powered digital experiences.',
